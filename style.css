@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(171, 229, 252, 0.649),rgba(248, 248, 179, 0.256));
+
+}
+
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+h6 {
+    color: #f7e9e9;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: #205E61;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+
+button:hover {
+    background-color: #FFEA20;
+}
+
+
+
+hr {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(4, 158, 223);
+    opacity: 0.5;
+}
+
+.star {
+    color: goldenrod;
+
+}
+
+
+.bstar {
+    color: rgb(37, 35, 35);
+}
+
+
+.p-name {
+    color: black;
+}
+
+/*  
+
+button:hover {
+    background-color: rgba(251, 26, 251, 0.725);
+    font-size: 0.81rem;
+}
+
+
+
+
+
+ */
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* NAVBAR SECTION STARTS FROM HERE */
+
+
+.navbar {
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    background-color: #ffbd21 !important;
+    box-shadow: 1px 0.2px 16px black;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+.navbar ul li a {
+    color: rgb(255, 253, 253);
+    font-weight: 600;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: rgb(18, 107, 210);
+}
+
+
+.navbar .icons i {
+    margin-bottom: 14px !important;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+
+
+.navbar i:hover,
+.navbar i.active {
+    color: rgb(8, 178, 234);
+}
+
+
+.navbar .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar .navbar-toggler:hover {
+    background-color: transparent;
+}
+
+
+#navbarSupportedContent>ul {
+    margin: 0rem;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    padding: 10px 0;
+
+}
+
+#bar {
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.logo {
+    transition: 0.2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#bar:hover,
+#bar.active {
+    background-color: transparent !important;
+}
+
+
+
+/*-----------------------------HOME SECTION STARTS FROM HERE------------------------------------------------------------ */
+
+#home span {
+    color: rgb(2, 115, 143);
+
+}
+
+
+
+#home {
+    background-image: url("./images/ultrawidebluedogHd.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 40px center;
+    display: flex;
+    box-shadow: 6px 6px 230px rgb(244, 249, 89);
+}
+
+.home-text {
+    margin-top: 300px;
+    margin-left: 60px;
+    color: rgb(214, 216, 216);
+
+}
+
+
+
+.herobtn:hover {
+    background-color: #02738fbd;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1, 1.1);
+    font-weight: bolder;
+    box-shadow: 1px 1px 9px black;
+}
+
+
+/* ----------------------------  Genre section ---------------------------------------- */
+
+
+.cartoon {
+    opacity: 0.9;
+    transition: 0.2s ease-in;
+}
+
+
+.cartoon:hover {
+    opacity: 1;
+    transform: rotate(20deg);
+}
+
+/* NEW SECTION STARTS FROM HERE */
+
+#new .one img {
+    width: 90%;
+    height: 90%;
+    border-radius: 6cm;
+    margin-left: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: 0.1s ease;
+}
+
+#new .one img:hover {
+    transform: scale(1.02, 1.02);
+    box-shadow: 2px 5px 13px #28c5f0;
+}
+
+
+
+#new .one .text {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+
+
+
+#new .one .text button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 2.5px;
+    transform: translateY(70px);
+    transition: 0.3s ease;
+}
+
+
+
+#new .one .text button:hover {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+
+#new .one:nth-child(1) .text {
+    display: flex;
+    color: white;
+    margin-left: 45px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+
+#new .one:nth-child(2) .text {
+    opacity: 0.8;
+    display: flex;
+    color: rgb(253, 253, 253);
+    margin-top: 110px;
+    margin-left: 75px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.one h2 {
+    -webkit-text-stroke: #000000;
+}
+
+.catbtn {
+    margin-top: -60px;
+}
+
+
+
+#new .one:nth-child(3) .text {
+    display: flex;
+    color: white;
+    margin-left: 120px;
+    margin-top: 130px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+
+}
+
+.mackawbtn {
+    margin-bottom: 250px;
+}
+
+
+
+/*------------------------------------- TRENDING BREEDS SECTION --------------------------------------------------- */
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+
+}
+
+.product img {
+    opacity: 0.9;
+    transition: 0.3s ease;
+}
+
+.product:hover img {
+    opacity: 1;
+}
+
+.product .buy-btn {
+    background-color: rgb(9, 183, 252);
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.product:hover .buy-btn {
+    transform: translateY(1px);
+    opacity: 1;
+}
+
+
+
+
+/* ---------------------PARALLAX BANNER STARTS FROM HERE------------------------------- */
+
+
+.paralaxbtn {
+    background-color: rgba(14, 13, 13, 0.739);
+    transition: 0.3s ease;
+}
+
+
+.paralaxbtn a {
+    color: #fafafa;
+    text-decoration: none;
+
+}
+
+
+.paralaxbtn:hover {
+    background-image: linear-gradient(to left, rgb(8, 156, 255), rgb(246, 229, 246));
+}
+
+
+#banner {
+    background-image: url("./images/parallax.jpg");
+    width: 100%;
+    height: 100vh;
+    margin-top: 3%;
+    margin-left: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 15px center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 42px 12px rgba(0, 125, 208, 0.708);
+
+
+}
+
+.paralax {
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+#banner h1 {
+    color: white;
+}
+
+#banner h4 {
+    color: rgb(255, 255, 255);
+}
+
+
+.strikee {
+    text-decoration: line-through;
+    color: grey;
+}
+
+
+
+/* ---------------------------------------- PARALLAX BANNER - 2 STARTS FROM HERE------------------------------- */
+
+
+.paralaxbtn2 {
+    background-color: rgb(184, 169, 6);
+    transition: 0.3s ease;
+}
+
+.paralaxbtn2:hover {
+    transform: scale(1.01, 1.01);
+    background-image: linear-gradient(to left, rgb(8, 156, 255), rgb(224, 253, 9));
+    color: black;
+}
+
+.paralaxbtn2 a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.paralaxbtn2 a:hover {
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+}
+
+
+
+
+
+#banner2 {
+    background-image: url("./images/parallax-2.jpg");
+    width: 100%;
+    height: 100vh;
+    margin-top: 3%;
+    margin-left: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 15px center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 49px rgba(255, 243, 6, 0.989);
+
+
+}
+
+.paralax2 {
+    margin-left: 70%;
+    margin-top: 5%;
+}
+
+.paralax2 span {
+    color: rgba(5, 155, 192, 0.779);
+}
+
+#banner2 h1 {
+    color: white !important;
+}
+
+#banner2 h4 {
+    color: rgb(254, 239, 18);
+}
+
+
+.strikee {
+    text-decoration: line-through;
+    color: grey;
+}
+
+
+
+/*-----------------------FOOD AND HEALTH SECTION STARTS FROM HERE---------------------------------*/
+
+.fnhimg{
+    border-radius: 5cm;
+}
+
+
+
+
+/* ---------------------FOOTER SECTION STARTS FROM HERE---------------------------------------- */
+
+
+.needlogo {
+    transition: 0.3s ease;
+}
+
+.needlogo:hover {
+    transform: scale(1.2, 1.2);
+}
+
+footer {
+    background-image: linear-gradient(rgb(10, 164, 181), rgb(9, 137, 223));
+    box-shadow: 32px 22px 62px rgb(20, 187, 252);
+}
+
+footer h5 {
+    color: white;
+}
+
+
+footer li {
+    padding-bottom: 4px;
+
+}
+
+footer li a {
+    font-size: 0.8rem;
+    color: #c4c1c1;
+}
+
+footer li a:hover {
+    color: #d8d8d8;
+    text-decoration: wavy;
+}
+
+
+footer p {
+    color: #d5d3d3;
+    font-size: 0.8rem;
+}
+
+
+.media {
+    margin-left: 5%;
+}
+
+
+.media i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-left: 17px;
+    transition: 0.4s ease;
+}
+
+.media i:hover {
+    color: rgb(255, 225, 34);
+    transform: rotate(10deg);
+}
+
+footer span {
+    color: white;
+    transition: 0.3s ease;
+}
+
+footer span:hover {
+    color: rgb(238, 67, 224);
+}
+
+
+
+/*--------------------- pay section */
+.pay img {
+    margin-right: 3%;
+
+}
+
+.payments_1 {
+    transition: 0.3s ease;
+}
+
+.payments_1:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.payments_2 {
+    transition: 0.3s ease;
+}
+
+.payments_2:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.payments_3 {
+    transition: 0.3s ease;
+}
+
+.payments_3:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0.5px 0.5px 1px 2px rgba(242, 255, 2, 0.819);
+}
+
+.payments_4 {
+    transition: 0.3s;
+}
+
+.payments_4:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+
+
+
+
+/* MediaQueries */
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .home-text {
+        margin-top: 295px !important;
+    }
+
+    .paralax2 {
+        margin-left: 50%;
+        margin-top: 5%;
+
+    }
+
+
+
+
+
+}

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HappyPets-WeeklyBlogs </title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HappyPets-WeeklyBlogs </title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <!-- Fontawesome CDN -->
@@ -13,103 +14,106 @@
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@500;600&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@500;600&family=Titillium+Web:wght@300&display=swap"
+    rel="stylesheet">
 
 
 
-    <link rel="icon" type="image/x-icon" href="./images/flavicon.png">
+  <link rel="icon" type="image/x-icon" href="./images/flavicon.png">
 
   <link rel="stylesheet" href="style.css">
 
   <style>
     body {
-        background-image: linear-gradient(to left, rgb(120, 255, 255), rgb(192, 235, 255));
+      background-image: linear-gradient(to left, rgb(156, 251, 251), rgba(50, 146, 191, 0.676));
     }
 
 
-    
-#classypurple {
-    background-position: -100vh;
-}
+
+    #classypurple {
+      background-position: -100vh;
+    }
 
 
     #blog-container h3,
     p {
-        color: rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
 
     }
 
     #blog-home h2 {
-        color: rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
     }
 
-    .post-image{
-        opacity:0.9;
-        transition: 1s ease;
-    }
-
-
-    .headline{
-        font-family: "Indie Flower";
-        font-weight:bold;
+    .post-image {
+      opacity: 0.9;
+      transition: 1s ease;
     }
 
 
+    .headline {
+      font-family: "Indie Flower";
+      font-weight: bold;
+    }
 
-    .post-image:hover{
-        transform:scale(1.03,1.02);
-        opacity: 1;
+    .post img {
+      border-radius: 10px;
+
+    }
+
+
+    .post-image:hover {
+      transform: scale(1.03, 1.02);
+      opacity: 1;
     }
 
     .post h4 {
-        color: rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
     }
 
 
 
-   .post:hover h4{
-     color:rgb(9, 60, 244);
-   }
+    .post:hover h4 {
+      color: rgb(9, 60, 244);
+    }
 
-   #blog-container .post .post-img {
-    overflow: hidden;
-    cursor: pointer;
-}
-
-
-#blog-container .post img {
-    transition: 0.6s ease;
-}
+    #blog-container .post .post-img {
+      overflow: hidden;
+      cursor: pointer;
+    }
 
 
-.post-image-font{
-    font-weight: 300;
-    font-size: medium;
-    margin-top: 10px;
-}
+    #blog-container .post img {
+      transition: 0.6s ease;
+    }
 
 
-#blog-container .post:hover img {
-    transform: scale(1.3) rotate(-10deg);
-    opacity: 0.9;
-}
+    .post-image-font {
+      font-weight: 300;
+      font-size: medium;
+      margin-top: 10px;
+    }
 
 
-#blog-container .post h3 {
-    transition: 0.3s ease;
-    cursor: pointer;
-}
+    #blog-container .post:hover img {
+      transform: scale(1.3) rotate(-10deg);
+      opacity: 0.9;
+    }
 
 
-#blog-container .post:hover h3 {
-    color: rgb(240, 37, 240);
-}
+    #blog-container .post h3 {
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
 
- 
 
-</style>
+    #blog-container .post:hover h3 {
+      color: rgb(240, 37, 240);
+    }
+  </style>
 
 
 
@@ -121,121 +125,130 @@
 
 
 <body>
- 
-    <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary py-2 fixed-top">
-        <div class="container">
-          <a href="./index.html"><img class="logo" src="./images/HappyPetsLogo_2.png" alt="" width="126px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span><i id="bar" class="fas fa-bars"></i></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-    
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-    
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Own</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
-              </li>
-    
-              <li class="nav-item icons">
-                <i class="fas fa-search"></i>
-                <a href="https://www.animaltrust.org.uk/"> <i class="fas fa-paw"></i></a>
-              </li>
-    
-          </div>
+
+  <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary py-2 fixed-top">
+    <div class="container">
+      <a href="./index.html"><img class="logo" src="./images/HappyPetsLogo_2.png" alt="" width="126px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i id="bar" class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Own</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+
+          <li class="nav-item icons">
+            <i class="fas fa-search"></i>
+            <a href="https://www.animaltrust.org.uk/"> <i class="fas fa-paw"></i></a>
+          </li>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="blog-home" class="pt-5 mt-3 container">
+    <h2 class=" headline pt-5">Weekly Pet Blogs..!</h2>
+    <hr>
+  </section>
+
+
+
+
+  <section id="blog-container" class="container">
+    <div class="row">
+      <div class="postnrml col-lg-6 col-mg-6 col-12 pb-4">
+        <div class="post-image">
+          <a href="https://pawsindia.com/blogs/news/cat-hygiene-checklist"> <img class="img-fluid w-100"
+              src="./images/blogs_1.png" alt=""></a>
         </div>
-      </nav>  
+        <h3 class="post-image-font">There's nothing greater than pampering your pet and making them look like a star.
+        </h3>
+        <p>posted few hours ago</p>
+      </div>
 
 
-      <section id="blog-home" class="pt-5 mt-5 container">
-        <h2 class=" headline pt-5">Weekly Pet Blogs..!</h2>
-        <hr>
-    </section>
-
-
-
-
-    <section id="blog-container" class="container">
-        <div class="row">
-            <div class="postnrml col-lg-6 col-mg-6 col-12 pb-4">
-                <div class="post-image">
-                   <a href="https://pawsindia.com/blogs/news/cat-hygiene-checklist"> <img class="img-fluid w-100" src="./images/blogs_1.png" alt=""></a>
-                </div>
-                <h3 class="post-image-font">There's nothing greater than pampering your pet and making them look like a star. 
-                </h3>
-                <p>posted few hours ago.</p>
-            </div>
-
-
-            <div class="postnrml col-lg-6 col-mg-6 col-12 pb-4">
-                <div class="post-image">
-                  <a href="https://pawsindia.com/blogs/news/how-to-reduce-shedding-in-dogs"> <img class="img-fluid w-100" src="./images/blogs_2.png" alt=""></a>
-                </div>
-                <h3 class="post-image-font">Have you ever pondered how to halt canine shedding or what initially prompts it?  </h3>
-                <p>posted few minutes ago.</p>
-            </div>
-
-            <div class="postnrml col-lg-6 col-mg-6 col-12 ">
-                <div class="post-image">
-                  <a href="https://pawsindia.com/blogs/news/best-treats-for-dogs-in-india"> <img class="img-fluid w-100" src="./images/blogs_3.png" alt=""></a>
-                </div>
-                <h3 class="post-image-font">If you have a pet dog, then you might be looking for the best dog treats available on the market.
-                </h3>
-                <p>posted few hours ago</p>
-            </div>
-
-            <div class="postnrml col-lg-6 col-mg-6 col-12">
-                <div class="post-image">
-                   <a href="https://pawsindia.com/blogs/news/how-to-stop-jealousy-aggression-in-dogs"><img class="img-fluid w-100" src="./images/blogs_4.png" alt=""></a> 
-                </div>
-                <h3 class="post-image-font"> We see our dogs in all of their glory: good, bad, and ugly. But have you ever noticed your pet get grumpy?</h3>
-                <p>Trending from past few weeks</p>
-            </div>
-
-
-
-            <div class="post col-lg-4 col-mg-6 col-12 pt-4">
-                <div class="post-img">
-                   <a href="https://www.theflockhouse.com/how-to-train-a-dog-with-positive-reinforcement/"> <img class="img-fluid w-100" src="./images/blogs_5.png" alt=""></a>
-                </div>
-                <h4 class=" text-center font-weight-normal pt-2">How To Train a Dog With Positive Reinforcement </h4>
-
-            </div>
-
-            <div class="post col-lg-4 col-mg-6 col-12 pt-4 ">
-                <div class="post-img">
-                    <img class="img-fluid w-100" src="./images/blogs_6.png" alt="">
-                </div>
-                <h4 class="text-center  font-weight-normal pt-2">How to feed a star tortoise </h4>
-
-            </div>
-
-            <div class="post col-lg-4 col-mg-6 col-12 pt-4">
-                <div class="post-img">
-                   <a href="https://amccorona.com/wp-content/uploads/2020/05/ARAV_trifold_ball_pythonv2_2.pdf"><img class="img-fluid w-100" src="./images/blogs_7.jpg" alt=""></a>
-                </div>
-                <h4 class="text-center font-weight-normal pt-2">Ball python maintainence and health guide </h4>
-
-            </div>
-
-
-
-
+      <div class="postnrml col-lg-6 col-mg-6 col-12 pb-4">
+        <div class="post-image">
+          <a href="https://pawsindia.com/blogs/news/how-to-reduce-shedding-in-dogs"> <img class="img-fluid w-100"
+              src="./images/blogs_2.png" alt=""></a>
         </div>
-    </section>
+        <h3 class="post-image-font">Have you ever pondered how to halt canine shedding or what initially prompts it?
+        </h3>
+        <p>posted few minutes ago</p>
+      </div>
+
+      <div class="postnrml col-lg-6 col-mg-6 col-12 ">
+        <div class="post-image">
+          <a href="https://pawsindia.com/blogs/news/best-treats-for-dogs-in-india"> <img class="img-fluid w-100"
+              src="./images/blogs_3.png" alt=""></a>
+        </div>
+        <h3 class="post-image-font">If you have a pet dog, then you might be looking for the best dog treats available
+          on the market.
+        </h3>
+        <p>posted few hours ago</p>
+      </div>
+
+      <div class="postnrml col-lg-6 col-mg-6 col-12">
+        <div class="post-image">
+          <a href="https://pawsindia.com/blogs/news/how-to-stop-jealousy-aggression-in-dogs"><img
+              class="img-fluid w-100" src="./images/blogs_4.png" alt=""></a>
+        </div>
+        <h3 class="post-image-font"> We see our dogs in all of their glory: good, bad, and ugly. But have you ever
+          noticed your pet get grumpy?</h3>
+        <p>Trending from past few weeks</p>
+      </div>
 
 
 
-  
+      <div class="post col-lg-4 col-mg-6 col-6 pt-4">
+        <div class="post-img">
+          <a href="https://www.theflockhouse.com/how-to-train-a-dog-with-positive-reinforcement/"> <img
+              class="img-fluid w-100" src="./images/blogs_5.png" alt=""></a>
+        </div>
+        <h4 class=" text-center font-weight-normal pt-2">How To Train a Dog With Positive Reinforcement </h4>
+
+      </div>
+
+      <div class="post col-lg-4 col-mg-6 col-6 pt-4 ">
+        <div class="post-img">
+          <img class="img-fluid w-100" src="./images/blogs_6.png" alt="">
+        </div>
+        <h4 class="text-center  font-weight-normal pt-2">How to feed a star tortoise </h4>
+
+      </div>
+
+      <div class="post col-lg-4 col-mg-6 col-6 pt-4">
+        <div class="post-img">
+          <a href="https://amccorona.com/wp-content/uploads/2020/05/ARAV_trifold_ball_pythonv2_2.pdf"><img
+              class="img-fluid w-100" src="./images/blogs_7.jpg" alt=""></a>
+        </div>
+        <h4 class="text-center font-weight-normal pt-2">Ball python maintainence and health guide </h4>
+
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+
+
+
   <!-- FOOTER SECTION STARTS FROM HERE---------------------------------------------------- -->
 
 
@@ -244,7 +257,8 @@
 
       <div class="footer-one col-lg-3 col-md-6 col-sm-12 col-12">
         <a href="#"><img class="needlogo pb-2" src="./images/HappyPetsLogo_2.png" width="100px" alt=""></a>
-        <p>Absolute place for owning pets, food and health. We offer you the most trending breeds and animals pets @reasonable prices <br>
+        <p>Absolute place for owning pets, food and health. We offer you the most trending breeds and animals pets
+          @reasonable prices <br>
           <hr><span> #Own your pets with love.</span> </p>
       </div>
 
@@ -338,6 +352,9 @@
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+  </script>
 
 
 </body>

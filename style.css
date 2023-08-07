@@ -646,13 +646,82 @@ footer span:hover {
         margin-top: 295px !important;
     }
 
+
+    #home {
+        background-image: url("./images/ultrawidebluedogHd.jpg");
+        width: 100%;
+        height: 100vh;
+        margin-left: 2px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top 40px center;
+        display: flex;
+        box-shadow: 6px 6px 230px rgb(244, 249, 89);
+    }
+
+.home-text{
+    margin-left: -5px;
+    color: rgba(255, 250, 250, 0.834);
+}
+
+
+    .home-text h1{
+        color:#f7f7f7
+    }
+
+    #home span{
+    color:#01111a82    
+    }
+
     .paralax2 {
-        margin-left: 50%;
+        margin-left: 40%;
         margin-top: 5%;
 
     }
 
+    #banner{
+        margin-left: 3px;
+    }
 
+
+   #banner2{
+    margin-left: 3px;
+   }
+
+   #new .one:nth-child(1) .text {
+    display: flex;
+    color: white;
+    margin-left: 40px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+
+#new .one:nth-child(2) .text {
+    opacity: 0.8;
+    display: flex;
+    color: rgb(253, 253, 253);
+    margin-top: 75px;
+    margin-left: 75px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#new .one:nth-child(3) .text {
+    display: flex;
+    color: white;
+    margin-left: 100px;
+    margin-top: 130px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+
+}
 
 
 

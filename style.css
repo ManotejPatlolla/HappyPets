@@ -213,7 +213,7 @@ button:hover {
     background-repeat: no-repeat;
     background-position: top 40px center;
     display: flex;
-    box-shadow: 6px 6px 230px rgb(244, 249, 89);
+    box-shadow: 3px 3px 100px rgba(45, 45, 45, 0.479);
 }
 
 .home-text {
@@ -656,7 +656,7 @@ footer span:hover {
         background-repeat: no-repeat;
         background-position: top 40px center;
         display: flex;
-        box-shadow: 6px 6px 230px rgb(244, 249, 89);
+        box-shadow: 3px 3px 100px rgba(125, 125, 125, 0.601);
     }
 
 .home-text{

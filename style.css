@@ -213,7 +213,7 @@ button:hover {
     background-repeat: no-repeat;
     background-position: top 40px center;
     display: flex;
-    box-shadow: 3px 3px 100px rgba(45, 45, 45, 0.479);
+    box-shadow: 3px 3px 100px rgba(113, 113, 113, 0.403);
 }
 
 .home-text {
